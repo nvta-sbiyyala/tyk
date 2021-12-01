@@ -5,14 +5,15 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/TykTechnologies/tyk/apidef"
 	"net/http"
 	"reflect"
 	"sort"
 	"testing"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/TykTechnologies/tyk/apidef"
+
+	"github.com/golang-jwt/jwt/v4"
 	"github.com/lonelycode/go-uuid/uuid"
 	"github.com/stretchr/testify/assert"
 

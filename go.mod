@@ -14,7 +14,7 @@ require (
 	github.com/TykTechnologies/goverify v0.0.0-20160822133757-7ccc57452ade
 	github.com/TykTechnologies/leakybucket v0.0.0-20170301023702-71692c943e3c
 	github.com/TykTechnologies/murmur3 v0.0.0-20180602122059-1915e687e465
-	github.com/TykTechnologies/openid2go v0.0.0-20200312160651-00c254a52b19
+	github.com/TykTechnologies/openid2go v0.0.0-20210909151116-813a2c703567
 	github.com/akutz/memconn v0.1.0
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d // indirect
@@ -25,8 +25,6 @@ require (
 	github.com/certifi/gocertifi v0.0.0-20190905060710-a5e0173ced67 // indirect
 	github.com/clbanning/mxj v1.8.4
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/emanoelxavier/openid2go v0.0.0-20190718021401-6345b638bfc9 // indirect
 	github.com/evalphobia/logrus_sentry v0.8.2
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
 	github.com/gemnasium/logrus-graylog-hook v2.0.7+incompatible
@@ -34,6 +32,7 @@ require (
 	github.com/getsentry/raven-go v0.2.0 // indirect
 	github.com/go-redis/redis/v8 v8.3.1
 	github.com/gocraft/health v0.0.0-20170925182251-8675af27fef0
+	github.com/golang-jwt/jwt/v4 v4.1.0
 	github.com/golang/protobuf v1.4.2
 	github.com/google/btree v1.0.0 // indirect
 	github.com/gorilla/mux v1.7.3
@@ -46,7 +45,7 @@ require (
 	github.com/jensneuse/abstractlogger v0.0.4
 	github.com/jensneuse/graphql-go-tools v1.20.2
 	github.com/jensneuse/graphql-go-tools/examples/federation v0.0.0-20210804084050-3c2e37945919 // indirect
-	github.com/justinas/alice v0.0.0-20171023064455-03f45bd4b7da
+	github.com/justinas/alice v1.2.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/lonelycode/go-uuid v0.0.0-20141202165402-ed3ca8a15a93
 	github.com/lonelycode/osin v0.0.0-20160423095202-da239c9dacb6
@@ -82,7 +81,7 @@ require (
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v0.0.0-20171025060643-212d8a0df7ac
 	github.com/xenolf/lego v0.3.2-0.20170618175828-28ead50ff1ca // indirect
-	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e
+	golang.org/x/crypto v0.0.0-20210813211128-0a44fdfbc16e
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
 	google.golang.org/appengine v1.6.1 // indirect
